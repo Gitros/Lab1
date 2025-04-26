@@ -1,14 +1,16 @@
-﻿class Program
+﻿// Zadanie 1.2. Napisz program, w który poprosi użytkownika o podanie nazwiska, imienia i wieku, a następnie wyświetli wczytany z klawiatury tekst.
+
+class Program
 {
     static void Main()
     {
-        Console.WriteLine("Podaj Nazwisko");
+        Console.WriteLine("Nazwisko");
         string nazwisko = Console.ReadLine();
 
-        Console.WriteLine("Podaj Imie");
+        Console.WriteLine("Imie");
         string imie = Console.ReadLine();
 
-        Console.WriteLine("Podaj Wiek");
+        Console.WriteLine("Wiek");
         string wiekInput = Console.ReadLine();
         int wiek;
 
@@ -16,7 +18,7 @@
         {
             Console.WriteLine("\nWprowadzone dane:");
             Console.WriteLine($"Nazwisko: {nazwisko}");
-            Console.WriteLine($"Imię: {imie}");
+            Console.WriteLine($"Imie: {imie}");
             Console.WriteLine($"Wiek: {wiek}");
         }
         else
