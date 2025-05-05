@@ -17,9 +17,7 @@ class Program
         if (int.TryParse(wiekInput, out wiek))
         {
             Console.WriteLine("\nWprowadzone dane:");
-            Console.WriteLine($"Nazwisko: {nazwisko}");
-            Console.WriteLine($"Imie: {imie}");
-            Console.WriteLine($"Wiek: {wiek}");
+            Console.WriteLine($"Nazwisko: {nazwisko},\nImie: {imie},\nWiek: {wiek}");
         }
         else
         {
